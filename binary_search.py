@@ -29,7 +29,7 @@ def binary_search(list_in: List[int], item: int) -> int:
 
 
 if __name__ == "__main__":
-    result = binary_search([150, 152, 154, 156, 99, 100, 22, 65], 65)
+    result = binary_search([15, 12, 54, 16, 9, 10, 2, 65, 33, 77, 99, 23, 29, 18, ], 54)
 
     print(result)
 
