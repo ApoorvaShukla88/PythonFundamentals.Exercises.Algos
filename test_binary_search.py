@@ -17,10 +17,6 @@ class TestBinarySearch(unittest.TestCase):
         ]
 
         for list_in, item, expected in test_cases:
-            # result = binary_search(list_in, item)
-            # self.assertEqual(result, expected)
-
-            # with self.subTest(f"{list_in} {item} -> {expected}"):
             self.assertEqual(expected, binary_search(list_in, item))
 
 
